@@ -1,0 +1,26 @@
+{
+  "posts": [
+    {
+      "id": "launching-tal3nt-docs",
+      "slug": "launching-tal3nt-docs",
+      "title": "Launching the Tal3nt Knowledge Base",
+      "excerpt": "We consolidated protocol specs, community playbooks, and contributor journeys into a single GitBook-inspired surface.",
+      "author": "Tal3nt Core Team",
+      "publishedAt": "2025-11-10T09:30:00.000Z",
+      "tags": ["product", "docs"],
+      "heroImage": "/hero-img2.png",
+      "content": "## Why ship docs now?\\nTeams rely on Tal3nt to run bounty programs, so they need a reliable reference.\\n\\n## What you can expect\\n- Guided onboarding paths for founders, operators, and contributors.\\n- Embedded snippets pulled directly from the live escrow contracts.\\n- A changelog that mirrors protocol releases.\\n\\n## What comes next\\nWe are shipping a `/sync` CLI so you can mirror this data into your internal wikis."
+    },
+    {
+      "id": "state-of-work",
+      "slug": "state-of-work",
+      "title": "The State of On-Chain Work 2025",
+      "excerpt": "Insights from 120+ ecosystems hiring talent through Tal3nt.",
+      "author": "Amina Kale",
+      "publishedAt": "2025-10-17T16:00:00.000Z",
+      "tags": ["research", "ecosystem"],
+      "heroImage": "/hero-img1.png",
+      "content": "## Signals from operators\\nBudgets are moving on-chain faster than contributor onboarding.\\n\\n## What builders need\\n- Lightweight compliance.\\n- Automatic payroll grouping.\\n- Portable reputation."
+    }
+  ]
+}

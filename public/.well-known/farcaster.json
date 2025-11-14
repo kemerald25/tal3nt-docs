@@ -1,0 +1,33 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjkwMDU4NCwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDZmOUFkMWNkM0RjRjI3MUM2OTY0ZDA2NThkYjU2QjM2ZDYyNDYxM2IifQ",
+    "payload": "eyJkb21haW4iOiJ0YWwzbnQueHl6In0",
+    "signature": "MHgyNWU0MDNjMzIyODViZTFhZjI1NDYxMWUzMDM4MDgzNzIyOGExNGJjMGI2ZWIxYjU4Zjk3OTcyYzljMjRkODM0NmQ1NGUyODBiMmYzOTIxOTU4YThlMGZmZDBjMjM1OGE2YTQxODUzZjczZThlNWFjMWIyZmM4NzhkN2UxMDFkYTFi"
+  },
+  "frame": {
+    "name": "TAL3NT",
+    "version": "1",
+    "iconUrl": "https://tal3nt.xyz/PFP.png",
+    "homeUrl": "https://tal3nt.xyz",
+    "imageUrl": "https://tal3nt.xyz/bg.jpg",
+    "buttonTitle": "Start",
+    "splashImageUrl": "https://tal3nt.xyz/bg.jpg",
+    "splashBackgroundColor": "#0A090F",
+    "webhookUrl": "https://tal3nt.xyz/",
+    "subtitle": "Get your web3 Job in a click",
+    "description": "Experience the future of getting a web3 job",
+    "screenshotUrls": ["https://tal3nt.xyz/bg.jpg"],
+    "primaryCategory": "social",
+    "tags": ["job", "monad", "social"],
+    "heroImageUrl": "https://tal3nt.xyz/bg.jpg",
+    "tagline": "Get Job, Create Job with ease",
+    "ogTitle": "TAL3NT-WEB3 job marketplace",
+    "ogDescription": "Decentralized platform connecting Web3 talent with innovative projects",
+    "ogImageUrl": "https://tal3nt.xyz/bg.jpg",
+    "requiredChains": ["eip155:10143"]
+  },
+  "requiredCapabilities": ["actions.signIn", "wallet.getEthereumProvider"],
+  "baseBuilder": {
+    "allowedAddresses": ["0x864c0A504da4ef27EE12b8197780e7067133587b"]
+  }
+}

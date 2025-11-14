@@ -1,0 +1,45 @@
+{
+  "sections": [
+    {
+      "id": "welcome",
+      "title": "Welcome",
+      "description": "Everything you need to understand how Tal3nt orchestrates decentralized work.",
+      "pages": [
+        {
+          "id": "introduction",
+          "sectionId": "welcome",
+          "slug": "introduction",
+          "title": "Introduction",
+          "summary": "What Tal3nt is and why the protocol exists.",
+          "lastUpdated": "2025-11-01T10:00:00.000Z",
+          "content": "# Tal3nt Documentation\\nTal3nt is the talent and work coordination layer for on-chain organizations.\\n\\n## Why Tal3nt\\n- Trust-minimized escrow powered by the Tal3nt Escrow smart contract.\\n- Composable reputation for contributors via on-chain attestations.\\n- Integrated admin tools for talent operators and guild leads.\\n\\n## Core Pillars\\n1. **Opportunities** — Curated bounties and roles sourced from audited teams.\\n2. **Credentials** — Work proof NFTs that can travel across ecosystems.\\n3. **Payments** — Programmatic payouts settled in stable crypto and wrapped assets.\\n\\nContinue with the rest of this guide to learn how to integrate Tal3nt into your workflow."
+        },
+        {
+          "id": "brand-system",
+          "sectionId": "welcome",
+          "slug": "brand-system",
+          "title": "Brand System",
+          "summary": "Colors, typography, and media assets that define Tal3nt's look.",
+          "lastUpdated": "2025-10-24T08:00:00.000Z",
+          "content": "# Brand System\\nTal3nt's aesthetic balances sci-fi minimalism with expressive gradients.\\n\\n### Color Palette\\n- Background: #0A090F\\n- Card: #1E1B29\\n- Accent: #EEDDFD\\n\\n### Assets\\nLogos and hero imagery are available in the public folder of this repo."
+        }
+      ]
+    },
+    {
+      "id": "builder-suite",
+      "title": "Builder Suite",
+      "description": "Guides for teams shipping on Tal3nt's contracts and APIs.",
+      "pages": [
+        {
+          "id": "contracts",
+          "sectionId": "builder-suite",
+          "slug": "contracts",
+          "title": "Smart Contracts",
+          "summary": "Interact with the escrow contracts across supported chains.",
+          "lastUpdated": "2025-11-05T14:00:00.000Z",
+          "content": "# Smart Contracts\\nThe Tal3nt Escrow contract powers milestone-based payouts.\\n\\n```solidity\\nfunction fundJob(string jobId) external payable;\\nfunction completeJobAndReleaseFunds(string jobId, address recipient, string title, string description, string imageUrl) external;\\n```\\n\\n### Network Configuration\\n| Chain | Chain ID | RPC |\\n| --- | --- | --- |\\n| Monad Testnet | 0x279F | https://testnet-rpc.monad.xyz |\\n\\nUse the ABI shared in the main Tal3nt app for integration."
+        }
+      ]
+    }
+  ]
+}
